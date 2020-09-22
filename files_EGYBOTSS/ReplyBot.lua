@@ -12,7 +12,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'سونيك' then
-TextReply = '[مطور سورس داني↯](https://t.me/UU_IV)  '
+TextReply = 'مطور السورس 🙈💞↯ (https://t.me/SOONICXX)  '
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
