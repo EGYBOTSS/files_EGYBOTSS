@@ -2,12 +2,12 @@ local function AddMe(msg)
 local text = msg.content_.text_
 if text == 'تفعيل ضافني' and Owner(msg) then   
 database:del(bot_id..'EGYBOTSS:Lock:Added:Me'..msg.chat_id_)  
-send(msg.chat_id_, msg.id_,'☑┇تم تفعيل امر منو ضافني') 
+send(msg.chat_id_, msg.id_,'☑┇تم تفعيل امر مين ضافني') 
 return false
 end
 if text == 'تعطيل ضافني' and Owner(msg) then  
 database:set(bot_id..'EGYBOTSS:Lock:Added:Me'..msg.chat_id_,true)  
-send(msg.chat_id_, msg.id_,'☑┇تم تعطيل امر منو ضافني') 
+send(msg.chat_id_, msg.id_,'☑┇تم تعطيل امر مين ضافني') 
 return false
 end
 
@@ -30,7 +30,7 @@ send(msg.chat_id_, msg.id_,'🔰┇انت دخلت عبر الرابط')
 end
 end,nil)
 else
-send(msg.chat_id_, msg.id_,'⚠┇امر منو ضافني تم تعطيله من قبل المدراء ') 
+send(msg.chat_id_, msg.id_,'⚠┇امر مين ضافني تم تعطيله من قبل المدراء ') 
 end
 end
 
