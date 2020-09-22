@@ -272,13 +272,13 @@ end
 
 if text == 'تفعيل ردود كلاو' and Owner(msg) then
 database:del(bot_id..'EGYBOTSS:Reply:Mute'..msg.chat_id_)
-send(msg.chat_id_, msg.id_,'تم تفعيل ردود البوت • ')
+send(msg.chat_id_, msg.id_,'• تم تفعيل ردود السورس ')
 return false
 end
 
 if text == 'تعطيل ردود كلاو' and Owner(msg) then
 database:set(bot_id..'EGYBOTSS:Reply:Mute'..msg.chat_id_,true)
-send(msg.chat_id_, msg.id_,'تم تعطيل ردود كلاو • ')
+send(msg.chat_id_, msg.id_,'• تم تعطيل ردود السورس  ')
 return false
 end
 
