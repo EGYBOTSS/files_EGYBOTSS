@@ -31,7 +31,7 @@ send(msg.chat_id_, msg.id_,'🔘┇لا اسطيع تاك معرفات المج�
 return false  
 end
 if result.id_ then
-send(msg.chat_id_, msg.id_,'☑┇تعال حبي عايزينك  بل كروب [@'..username..']') 
+send(msg.chat_id_, msg.id_,'☑┇تعال حبي عايزينك  بل جروب [@'..username..']') 
 return false
 end
 end
