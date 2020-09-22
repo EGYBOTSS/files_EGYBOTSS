@@ -27,7 +27,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'كيفك' then
-TextReply = 'شبَيڪہ صافن ☹️💞'
+TextReply = ' بخير ونت ☹️💞'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
