@@ -270,7 +270,7 @@ return false
 end
 end
 
-if text == ' تفعيل ردود كلاو' and Owner(msg) then
+if text == 'تفعيل ردود كلاو' and Owner(msg) then
 database:del(bot_id..'EGYBOTSS:Reply:Mute'..msg.chat_id_)
 send(msg.chat_id_, msg.id_,'•┇تم تفعيل ردود كلاو 💞')
 return false
